@@ -1,0 +1,12 @@
+.hero {
+    height: 600px;
+    width: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;      
+}
