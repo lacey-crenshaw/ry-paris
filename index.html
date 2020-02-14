@@ -5,93 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ry Paris</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
-    <div>
-        <div class="nav">
-            <div class="navBar">
-                <img src="" alt="logo" class="logo">
-                <div class="navLinks">
-                    <div>Popular Recipes</div>
-                    <div>What's New</div>
-                    <div>Categories</div>
-                    <div>Meal Ideas</div>
-                </div>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="ryParis/recipe-page.html">Popular Recipes</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Meal Ideas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <h1 style="background-color: white;">start the week off right</h1>
+        </div>
+    </section>
+    <main>
+        <section id="categories">
+            <h2>Everyday Categories</h2>
+            <p>Everyday food has developed recipes with the home cook in mind. These delicious dishes featured on <q>RY
+                    Paris</q> call for simple ingredients that you already have in your pantry or can easily find at
+                local
+                grocery stores and farmers' markets.</p>
+            <div class="section-inner">
+                <img src="images/breakfast.jpg" alt="Breakfast Most Important Meal">
+                <h4>Breakfast, the Most Important Meal</h4>
             </div>
-        </div>
-    </div>
-    <div>
-        <div class="hero">
-            <div class="heroHead">
-                <div class="heroText">start the week off right</div>
+            <div class="everydayLunch">
+                <img src="images/lunch.jpeg" alt="Vegetarian Lunch Ideas">
+                <h4>Vegetarian Lunch Ideas</h4>
             </div>
-        </div>
-    </div>
-    <div class="content everyday">
-        <h1>Everyday Categories</h1>
-        <p>Everyday food has developed recipes with the home cook in mind. These delicious dishes featured on <q>RY
-                Paris</q> call for simple ingredients that you already have in your pantry or can easily find at local
-            grocery stores and farmers' markets.</p>
-        <div class="everydayBreakfast">
-            <img src="" alt="Breakfast Most Important Meal">
-            <h4>Breakfast, the Most Important Meal</h4>
-        </div>
-        <div class="everydayLunch">
-            <img src="" alt="Vegetarian Lunch Ideas">
-            <h4>Vegetarian Lunch Ideas</h4>
-        </div>
-        <div class="everydayDinners">
-            <img src="" alt="Cold-Weather Weekend Dinners">
-            <h4>Cold-Weather Weekend Dinners</h4>
-        </div>
-    </div>
-    <div class="healthyRecipes">
-        <h1>Healthy Recipes of the Week</h1>
-        <p>This week's top award winners to critically-acclaimed recipe gems. Check out these original recipes from home
-            cook and professional chef around the country.</p>
-        <div class="peppers">
-            <img src="" alt="Fajita-Stuffed Peppers">
-            <h4>Fajita-Stuffed Peppers</h4>
-        </div>
-        <div class="muffins">
-            <img src="" alt="Ree's Breakfast Muffins">
-            <h4>Ree's Breakfast Muffins</h4>
-        </div>
-        <div class="eggplant">
-            <img src="" alt="Eggplant Parmesan">
-            <h4>Eggplant Parmesan</h4>
-        </div>
-        <div class="chicken">
-            <img src="" alt="Teriyaki Chicken Thighs">
-            <h4>Teriyaki Chicken Thighs</h4>
-        </div>
-    </div>
-    <div class="whereToEat">
-        <h1>Where to Eat</h1>
-        <p>This is not the aspirational fluff of Instagram wall neon; it's fact. Recent surveys have shown that a
-            majority of travelers consider food first when planning a trip, even ahead of where they sleep. Add to this
-            that people are also traveling more than ever before - Earthlings logged a record-breaking 1.4 billion
-            international trips last year - and it's safe to say that the hunger for new culinary experiences is more
-            ravenous than ever.</p>
-        <p>While the endlessly alluring bistros of Paris, Izakayas of Tokyo, Shawarma stands of Tel Aviv, and tasting
-            menus of Mexico City will always top many peoples' lists of cravings, we're continually on the lookout for
-            something new to fill our bellies, our passportsm and our feeds.</p>
+            <div class="everydayDinners">
+                <img src="images/dinner.jpeg" alt="Cold-Weather Weekend Dinners">
+                <h4>Cold-Weather Weekend Dinners</h4>
+            </div>
+        </section>
+
+        <section id="recipe-week">
+            <h1>Healthy Recipes of the Week</h1>
+            <p>This week's top award winners to critically-acclaimed recipe gems. Check out these original recipes from
+                home
+                cook and professional chef around the country.</p>
+            <div class="peppers">
+                <img src="images/peppers.jpeg" alt="Fajita-Stuffed Peppers">
+                <h4>Fajita-Stuffed Peppers</h4>
+            </div>
+            <div class="muffins">
+                <img src="images/muffins.jpg" alt="Ree's Breakfast Muffins">
+                <h4>Ree's Breakfast Muffins</h4>
+            </div>
+            <div class="eggplant">
+                <img src="images/eggplant.jpg" alt="Eggplant Parmesan">
+                <h4>Eggplant Parmesan</h4>
+            </div>
+            <div class="chicken">
+                <img src="images/chicken.jpg" alt="Teriyaki Chicken Thighs">
+                <h4>Teriyaki Chicken Thighs</h4>
+            </div>
+        </section>
+
+        <section id="where">
+            <h1>Where to Eat</h1>
+            <p>This is not the aspirational fluff of Instagram wall neon; it's fact. Recent surveys have shown that a
+                majority of travelers consider food first when planning a trip, even ahead of where they sleep. Add to
+                this
+                that people are also traveling more than ever before - Earthlings logged a record-breaking 1.4 billion
+                international trips last year - and it's safe to say that the hunger for new culinary experiences is
+                more
+                ravenous than ever.</p>
+            <p>While the endlessly alluring bistros of Paris, Izakayas of Tokyo, Shawarma stands of Tel Aviv, and
+                tasting
+                menus of Mexico City will always top many peoples' lists of cravings, we're continually on the lookout
+                for
+                something new to fill our bellies, our passportsm and our feeds.</p>
             <div class="sandwiches">
-                <img src="" alt="Best Sandwiches">
+                <img src="images/sandwich.jpg" alt="Best Sandwiches">
                 <h4>Best Sandwiches in America</h4>
             </div>
             <div class="pizza">
-                <img src="" alt="50 States of Pizza Slices">
+                <img src="images/pizza.jpg" alt="50 States of Pizza Slices">
                 <h4>50 States of Pizza Slices</h4>
             </div>
             <div>
-                <img src="" alt="guides">
+                <img src="images/city.jpg" alt="guides">
                 <h4>City Guides</h4>
             </div>
-    </div>
+        </section>
+
+    </main>
+
     <footer>
         <p>2020 RY PARIS</p>
         <div class="footerLinks">
